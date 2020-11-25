@@ -7,3 +7,4 @@ ripley.log
 *.pyc
 2017*/
 .vscode/*
+backup.*
