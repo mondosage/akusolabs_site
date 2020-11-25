@@ -1,0 +1,9 @@
+fugue.yaml
+fuguecli.log
+fugue.yaml.old
+201*/**
+ripley.log
+.vscode
+*.pyc
+2017*/
+.vscode/*

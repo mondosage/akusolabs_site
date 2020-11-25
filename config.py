@@ -1,0 +1,5 @@
+SECRET_KEY = 'you-should-change-this'
+MYSQL_DATABASE_USER = '<your_db_user>'
+MYSQL_DATABASE_PASSWORD = '<your_db_password>' 
+MYSQL_DATABASE_DB = 'users'
+MYSQL_DATABASE_HOST = '<your_db_host>'

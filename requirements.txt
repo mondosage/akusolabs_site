@@ -1,0 +1,6 @@
+Flask
+Flask-MySQL
+Flask-WTF
+Jinja2
+Werkzeug
+Newrelic
