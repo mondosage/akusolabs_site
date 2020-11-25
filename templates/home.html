@@ -1,10 +1,30 @@
 {% extends "layout.html" %}
 {% block content %}
- <div class="jumbotron">
-        <h1>Akuso Labs</h1>
-        <p>Better Software Using Open Source</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="{{ url_for('contact') }}" role="button">Contact Us! &raquo;</a>
-        </p>
-      </div>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+  <h1>Akuso Labs</h1>
+  <p>Better Software Using Open Source</p>
+  <p>
+    <a class="btn btn-lg btn-primary" href="{{ url_for('contact') }}" role="button">Contact Us! &raquo;</a>
+  </p>
+</div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3> 
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+</div>
+
 {% endblock %}
