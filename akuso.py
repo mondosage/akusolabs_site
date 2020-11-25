@@ -3,13 +3,13 @@ newrelic.agent.initialize('newrelic.ini')
 
 from flask import Flask, render_template, request, flash, json
 from forms import ContactForm
-from flaskext.mysql import MySQL
+#from flaskext.mysql import MySQL
 
 app = Flask(__name__)      
 app.config.from_pyfile('config.py')
 
-mysql = MySQL()
-mysql.init_app(app)
+# mysql = MySQL()
+# mysql.init_app(app)
 
 @app.route('/')
 def home():
